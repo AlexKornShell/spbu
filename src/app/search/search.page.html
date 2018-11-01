@@ -5,5 +5,12 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-tabs>
+	<ion-tab label="Groups" icon="home" href="/tabs/(groups:groups)">
+	  <ion-router-outlet name="groups"></ion-router-outlet>
+	</ion-tab>
+	<ion-tab label="Lecturers" icon="information-circle" href="/tabs/(lecturers:lecturers)">
+	  <ion-router-outlet name="lecturers"></ion-router-outlet>
+  	</ion-tab>
+  </ion-tabs>
 </ion-content>

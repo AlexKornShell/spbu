@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './favourites.page.html',
   styleUrls: ['./favourites.page.scss'],
 })
-export class FavouritesPage implements OnInit {
-
+export class FavouritesPage {//implements OnInit {
+/*
   constructor() { }
 
   ngOnInit() {
   }
-
+*/
 }

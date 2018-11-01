@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './search.page.html',
   styleUrls: ['./search.page.scss'],
 })
-export class SearchPage implements OnInit {
-
+export class SearchPage {//implements OnInit {
+/*
   constructor() { }
 
   ngOnInit() {
   }
-
+*/
 }
